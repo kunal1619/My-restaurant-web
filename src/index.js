@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// let date = new Date()
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <h1>{`current date and time is ${date}`}</h1> */}
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
